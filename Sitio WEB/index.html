@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/aa88c30092.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav id="nav" class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <a>
+                <h2>Listen Me!</h2>
+            </a>
+            <button id="button" width="50px" class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContend" aria-controls="navbarSupportedContend" aria-expanded="false"
+                aria-label="Toogle navigation">
+                <i id="button" class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContend">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="artists.html">Artists</a></li>
+                    <li class="nav-item"><a class="nav-link" href="multimedia.html">Multimedia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/font.jpg" alt="First slide" id="imagen1">
+            </div>
+        </div>
+    </div>
+
+    <div id="title1" class="container">
+        <h1 id="subtitle">Welcome!</h1>
+        <h1 id="subtitle">Listen</h1>
+        <h1 id="subtitle">Our Playlist!</h1>
+        <div class="row">
+            <div class="col-sm">
+                <a href="https://open.spotify.com/playlist/37i9dQZF1DXcd2Vmhfon1w?si=0nk_ZHchREGNxz565a-pMw"
+                    class="nav-link">
+                    <i id="icon" class="fab fa-spotify fa-10x"></i>
+                </a>
+            </div>
+        </div>
+        <h1 id="subtitle">Enjoy the music</h1>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+<div class="card text-center">
+    <div class="card-body">
+        <a>
+            <h2 id="titulo"><i class="fas fa-user-secret"></i> Jon Urteaga</h2>
+        </a>
+        <a>
+            <h2 id="titulo"><i class="fas fa-envelope"></i> 22urteaga@gmail.com</h2>
+        </a>
+        <a>
+            <h2 id="titulo"><i class="fas fa-phone"></i> +34 622 080 234</h2>
+        </a>
+
+    </div>
+</div>
+
+</html>
